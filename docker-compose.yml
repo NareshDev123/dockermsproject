@@ -2,13 +2,13 @@
 version: "3.8"
 services:
   naresh:
-    image: naresh05/nareshpay:latest
+    image: naresh05/jenkins:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
   harsih:
-    image: naresh05/harishpay:latest
+    image: naresh05/maven:latest
     ports:
       - 82:80
     deploy:
